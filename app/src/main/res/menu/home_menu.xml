@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchMenu"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/cloudMenu"
+        android:icon="@drawable/baseline_cloud_upload_24"
+        android:title="Cloud"
+        app:showAsAction="ifRoom"
+        android:tooltipText="Upload to Google Sheet"/>
+
+    <item
+        android:id="@+id/importMenu"
+        android:icon="@drawable/baseline_upload_24"
+        android:title="Import"
+        app:showAsAction="ifRoom"
+        android:tooltipText="Upload Xlsx File"/>
+
+    <item
+        android:id="@+id/exportMenu"
+        android:icon="@drawable/baseline_file_download_24"
+        android:title="Export"
+        app:showAsAction="ifRoom"
+        android:tooltipText="Download Xlsx File"/>
+
+
+</menu>
